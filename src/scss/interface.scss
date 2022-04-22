@@ -1,0 +1,28 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	outline: none;
+	text-size-adjust: none;
+	list-style-type: none;
+	text-decoration: none;
+    line-height: normal;
+    border: none;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+    letter-spacing: unset;
+    text-size-adjust: none;
+	-webkit-touch-callout: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	text-rendering: optimizeLegibility;
+	scroll-behavior: smooth;
+	text-decoration: none;
+    font-family: -apple-system, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+	height: 100%;
+}
