@@ -3,6 +3,8 @@
     &__header {
         border-bottom: 2px solid #F2F2F2;
         padding-bottom: 20px;
+        display: flex;
+        align-items: center;
     }
     &__body {
         margin-top: 30px;
@@ -11,17 +13,40 @@
         font-size: 32px;
         font-weight: 700;
     }
+    &__edit {
+        cursor: pointer;
+        margin: 5px 0 0 15px;
+        svg {
+            transition: .1s ease;
+            fill: lightgray;
+        }
+        &:hover {
+            svg {
+                fill: gray;
+            }
+        }
+    }
     &__items {
         &-item {
             display: flex;
             align-items: flex-start;
             justify-content: space-between;
+            $self: &;
+            &:hover {
+                #{$self}-remove {
+                    opacity: 1;
+                }
+            }
             &:not(:first-child) {
                 margin-top: 20px;
+            }
+            .checkbox {
+                width: 100%;
             }
             &-remove {
                 margin-left: 10px;
                 cursor: pointer;
+                opacity: 0;
                 svg {
                     transition: .15s ease;
                     fill: #E3E3E3;
@@ -32,6 +57,10 @@
                     }
                 }
             }
+        }
+        &-empty {
+            font-size: 24px;
+            color: lightgray;
         }
     }
 }

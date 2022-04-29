@@ -1,8 +1,8 @@
 {
   "lists": [
     {
+      "name": "Покупки",
       "id": 1,
-      "name": "Продажи",
       "colorId": 5
     },
     {
@@ -21,11 +21,6 @@
       "colorId": 2
     },
     {
-      "id": 5,
-      "name": "Личное",
-      "colorId": 1
-    },
-    {
       "name": "Спорт",
       "colorId": 3,
       "id": 6
@@ -41,7 +36,7 @@
       "id": 1,
       "listId": 2,
       "text": "Изучить JavaScript",
-      "completed": true
+      "completed": false
     },
     {
       "id": 2,
@@ -53,7 +48,7 @@
       "id": 3,
       "listId": 2,
       "text": "ReactJS Hooks (useState, useReducer, useEffect и т.д.)",
-      "completed": true
+      "completed": false
     },
     {
       "id": 4,
@@ -64,7 +59,7 @@
     {
       "listId": 2,
       "text": "123",
-      "completed": true,
+      "completed": false,
       "id": 5
     },
     {
@@ -82,7 +77,7 @@
     {
       "listId": 1,
       "text": "qweqwe",
-      "completed": true,
+      "completed": false,
       "id": 8
     },
     {
@@ -94,38 +89,32 @@
     {
       "listId": 4,
       "text": "Купить 1984!",
-      "completed": true,
+      "completed": false,
       "id": 10
     },
     {
       "listId": 2,
       "text": "222",
-      "completed": true,
+      "completed": false,
       "id": 12
     },
     {
       "listId": 7,
       "text": "Сделали сайдбар",
-      "completed": true,
-      "id": 15
+      "completed": false,
+      "id": 13
     },
     {
       "listId": 7,
       "text": "Сделали список задач",
-      "completed": true,
-      "id": 16
+      "completed": false,
+      "id": 14
     },
     {
       "listId": 7,
       "text": "Сделали удаление и редактирование задач и списков",
-      "completed": true,
-      "id": 17
-    },
-    {
-      "listId": 8,
-      "text": "tttt",
       "completed": false,
-      "id": 18
+      "id": 15
     }
   ],
   "colors": [

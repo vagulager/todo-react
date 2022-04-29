@@ -1,0 +1,15 @@
+.tasks__form {
+    margin-top: 20px;
+    &-block {
+        margin-top: 12px;
+    }
+    &-new {
+        &-btn {
+            background: #F4F6F8;
+            padding: 10px;
+        }
+        .btn-container-flex {
+            margin-top: 12px;
+        }
+    }
+}

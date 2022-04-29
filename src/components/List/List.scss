@@ -43,6 +43,8 @@
             padding: 10px 14px;
             width: 100%;
             cursor: pointer;
+            font-size: 12px;
+            font-weight: 500;
             &:hover {
                 .todo__list-btn-remove {
                     opacity: 1;
@@ -63,8 +65,9 @@
                 white-space: nowrap;
                 text-overflow: ellipsis;
                 transition: .2s ease;
-                font-size: 12px;
-                font-weight: 500;
+            }
+            &-count {
+                margin: 0 4px;
             }
             &-remove {
                 margin-left: auto;
